@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "puppeteer",
+    "headless",
+    "website scraper",
+    "web-scraper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
