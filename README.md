@@ -4,6 +4,8 @@ Several hacks and alpha code. Experiments - not stable at all. And definitely no
 
 I also maintain a little repo about [interesting web-stuff](https://github.com/spekulatius/web-stuff) with discoveries on GitHub and the Internet in general.
 
-## Puppeteer Stuff
+## Scraping Stuff
 
 - [Scraping with puppeteer](https://github.com/spekulatius/hacks/tree/master/puppeteer-web-scraper)
+
+- [Python3 Link Extractor](https://github.com/spekulatius/hacks/tree/master/python3-beautifulsoup-link-extractor)

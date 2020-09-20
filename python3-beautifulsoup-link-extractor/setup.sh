@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo apt-get install python-bs4
+
+pip install beautifulsoup4
