@@ -8,4 +8,6 @@ I also maintain a little repo about [interesting web-stuff](https://github.com/s
 
 - [Scraping with puppeteer](https://github.com/spekulatius/hacks/tree/master/puppeteer-web-scraper)
 
+- [Waybackurls URL Segment Parser & Filter](https://github.com/spekulatius/hacks/tree/master/waybackurls-url-segment-filter)
+
 - [Python3 Link Extractor](https://github.com/spekulatius/hacks/tree/master/python3-beautifulsoup-link-extractor)
