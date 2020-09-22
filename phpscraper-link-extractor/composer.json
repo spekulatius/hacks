@@ -1,0 +1,16 @@
+{
+    "name": "spekulatius/phpscraper-link-extractor-example",
+    "description": "Example how to extract links from a given URL.",
+    "type": "project",
+    "require": {
+        "spekulatius/phpscraper": "^0.4.0"
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Peter Thaleikis",
+            "email": "peter.thaleikis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

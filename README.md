@@ -10,4 +10,4 @@ I also maintain a little repo about [interesting web-stuff](https://github.com/s
 
 - [Waybackurls URL Segment Parser & Filter](https://github.com/spekulatius/hacks/tree/master/waybackurls-url-segment-filter)
 
-- [Python3 Link Extractor](https://github.com/spekulatius/hacks/tree/master/python3-beautifulsoup-link-extractor)
+- [Python3 Link Extractor](https://github.com/spekulatius/hacks/tree/master/python3-beautifulsoup-link-extractor) & [PHPScraper Link Extractor](https://github.com/spekulatius/hacks/tree/master/phpscraper-link-extractor). Both do the same using different tech. I've made a repo to summarize my findings [playing BeautifulSoup and PHPScraper](https://github.com/spekulatius/link-scraping-test-beautifulsoup-vs-phpscraper) around with both.
