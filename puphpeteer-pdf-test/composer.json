@@ -1,0 +1,16 @@
+{
+    "name": "spekulatius/puphpeteer-pdf-test",
+    "description": "Test of PDF functionality using PuPHPeteer",
+    "type": "project",
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Peter Thaleikis",
+            "email": "peter.thaleikis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nesk/puphpeteer": "^1.6"
+    }
+}

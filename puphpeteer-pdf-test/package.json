@@ -1,0 +1,11 @@
+{
+  "name": "puphpeteer-pdf-test",
+  "version": "0.0.1",
+  "description": "Testing PDF functionality with PuPHPeteer",
+  "main": "index.js",
+  "license": "GPL-3",
+  "private": false,
+  "dependencies": {
+    "@nesk/puphpeteer": "^1.6.0"
+  }
+}
