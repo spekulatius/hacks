@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# Pre-flight clean up old files.
+mkdir /tmp/cc/;
+rm -f /tmp/cc/*
+
+# Get the path files
+wget https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2020-34/cc-index.paths.gz -O /tmp/cc/cc-index.paths.gz
+gunzip /tmp/cc/cc-index.paths.gz
+cat /tmp/cc/cc-index.paths | grep cdx > /tmp/cc/cc-index.paths_cleaned
+
+# Download each file, extract it, and find desired entries.
+while read line; do
+  echo ""
+
+  URL="https://commoncrawl.s3.amazonaws.com/$line";
+  echo "Loading $URL"
+  wget $URL -O /tmp/cc/list.gz
+
+  echo "Extracting file"
+  gunzip /tmp/cc/list.gz
+
+  echo "Extracting desired entries"
+  cat /tmp/cc/list | grep "/author/" | cut -d " " -f 3- >> ./data/authors
+  cat /tmp/cc/list | grep "/writer/" | cut -d " " -f 3- >> ./data/authors
+
+  echo "Start the post-processor"
+  ./post-processor
+
+  echo "Deleting files"
+  rm /tmp/cc/*
+done < /tmp/cc/cc-index.paths_cleaned
+
+rm cc-index.paths
