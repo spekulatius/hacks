@@ -1,6 +1,6 @@
-# Puphpeteer PDF Generation Test
+# PuPHPeteer PDF Generation Test
 
-Playing around with [Puphpeteer](https://github.com/rialto-php/puphpeteer/) to get used to it and trying to replicate [this bug](https://github.com/rialto-php/puphpeteer/issues/82).
+Playing around with [PuPHPeteer](https://github.com/rialto-php/puphpeteer/) to get used to it and trying to replicate [this bug](https://github.com/rialto-php/puphpeteer/issues/82).
 
 ## Setup
 
