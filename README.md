@@ -19,3 +19,8 @@ I also maintain a little repo about [interesting web-stuff](https://github.com/s
 ## CommonCrawl
 
 - [CommonCrawl URL-Segment Filter](https://github.com/spekulatius/hacks/tree/master/common-crawl-urlsegment-filter)
+
+
+## FaasD
+
+- [faasd franc](https://github.com/spekulatius/faasd-franc).
