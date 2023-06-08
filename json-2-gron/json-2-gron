@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find . -type f -name '*.json' -exec sh -c 'gron "$0" > "${0%.json}.gron" && rm "$0"' {} \;

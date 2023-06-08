@@ -5,6 +5,13 @@ Several hacks and alpha code. Experiments - not stable at all. And definitely no
 I also maintain a little repo about [interesting web-stuff](https://github.com/spekulatius/web-stuff) with discoveries on GitHub and the Internet in general.
 
 
+## InfoSec
+
+- [json-2-gron](https://github.com/spekulatius/hacks/tree/master/json-2-gron)
+
+- [jsonl-2-json-files](https://github.com/spekulatius/jsonl-2-json-files)
+
+
 ## Scraping Stuff
 
 - [Scraping with Puppeteer](https://github.com/spekulatius/hacks/tree/master/puppeteer-web-scraper)
